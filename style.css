@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+    /* Infelizmente algumas medidas do frigma deram muita diferenca no meu trabalho
+    por isso houve algumas adpatações necessárias*/
+}
+#menu-superior{
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF; 
+}
+#titulo-superior{
+    font-size: 48px;
+    font-weight: 688;
+    padding: 206px 354px 20px 62px;
+}
+#sub-titulo{
+    font-size: 18px;
+    font-weight: 588;
+    padding: 20px 354px 197px 62px;
+}
+/*Menu informativo*/
+#menu-informaional{
+    padding: 75px 150px;
+    padding-right: 100px;
+    height: 100px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+.numeros{
+    font-size: 38px;
+    font-weight: 300px;
+}
+.numeros:hover{
+    cursor: pointer;
+    color: #C07212;
+}
+#secao-imagem{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+#titulo-texto{
+    font-weight: 500px;
+    font-size: 40px;
+    padding: 204px 64px 10px 77px;
+}
+#texto-base{
+    padding: 5px 54px 214px 77px;
+    margin-left: 50px; 
+}
+#imagem{
+   display: grid;
+   grid-auto-flow: column;
+   margin-top: 68px;
+   margin: 50px;
+   border-radius: 5px;
+}
+.foto-principal{
+   width: 518px;
+   height: 685px;
+   padding: 72px 0px 25px 75px;
+   cursor: pointer;
+}
+.setas{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px;
+}
+#seta-direita{
+    background-color: #C07212;
+    width: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+#seta-direita:hover{
+    background-color:#e9ae66;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px  #5e564d8e;
+    transition-duration: 0.5s;
+}
+#seta-esquerda{
+    display: none;
+    background-color: #C07212;
+    width: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+#seta-esquerda:hover{
+    background-color:#e9ae66;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px  #5e564d8e;
+    transition-duration: 0.5s;}
+
+#foto-secundaria{
+    display: none;
+    width: 508;
+    height: 685px;
+    padding: 72px 0px 25px 75px;
+}
+    
+/*Formulario*/
+#formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+#titulo-formulario{
+    font-weight: 700;
+    font-size: 32px;
+padding: 87px 248px 0px 248px;
+}
+input{
+    width: 305px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 48px 466px 10px 466px;
+}
+/*Botão click */
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 193px;
+    height: 38px;
+    margin: 22px 47px 22px 46px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#e9ae66;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px  #5e564d8e;
+    transition-duration: 0.5s;
+}
